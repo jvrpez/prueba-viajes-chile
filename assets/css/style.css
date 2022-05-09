@@ -39,3 +39,8 @@ body{
 i {
     color: var(--white);
 }
+
+.card-img-top{
+    height: 150px;
+    width: 300px;
+}
