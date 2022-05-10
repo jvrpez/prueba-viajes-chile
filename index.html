@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <!--Parámetros Básicos-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,6 +34,8 @@
     <!--Titulo-->
     <title>Viajes Chile</title>
 </head>
+
+
 <body>
 
    <!-- Navbar -->
@@ -85,15 +88,15 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
               <!--Foto 1 Carousel-->
-            <img class="d-block" src="assets/img/carousel1.jpg" alt="foto1">
+            <img class="d-block w-100" src="assets/img/carousel1.jpg" alt="foto1">
           </div>
           <div class="carousel-item">
               <!--Foto 2 Carousel-->
-            <img class="d-block" src="assets/img/carousel2.jpg"alt="foto2">
+            <img class="d-block w-100" src="assets/img/carousel2.jpg"alt="foto2">
           </div>
           <div class="carousel-item">
               <!--Foto 3 Carousel-->
-            <img class="d-block" src="assets/img/carousel3.jpg"alt="foto3">
+            <img class="d-block w-100" src="assets/img/carousel3.jpg"alt="foto3">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -108,15 +111,15 @@
  </header>
 
   <!--Quienes Somos-->
- <section id="related" class="related container text-center my-4">
+ <section id="related" class="related container text-center my-4 d-none d-md-block">
     <h2 class="text-center p-4">¿QUIÉNES SOMOS?</h2>
     <hr class="d-none d-sm-block"/>
 
     <div class="row">
       <!--Primera Columna-->
-      <div class="col-md-4">
+      <div class="col-md-4 m-0">
         <div class="text-center bg-info">
-        <i class="fas fa-plane"></i>
+        <i class="fas fa-plane fa-2x"></i>
       </div>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
@@ -126,7 +129,7 @@
            with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
       </div>
       <!--Segunda Columna-->
-      <div class="col-md-4">
+      <div class="col-md-4 m-0">
         <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
           when an unknown printer took a galley of type and scrambled it to make a type specimen book.
@@ -134,13 +137,14 @@
            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
            with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
       <div class="text-center bg-info">
-        <i class="fas fa-mountain"></i>
+        <i class="fas fa-mountain fa-2x"></i>
+        <i class="fas fa-mountain fa-2x"></i>
       </div>
       </div>
       <!--Tercera Columna-->
-      <div class="col-md-4">
+      <div class="col-md-4 m-0">
         <div class="text-center bg-info">
-        <i class="fas fa-route"></i>
+        <i class="fas fa-route fa-2x"></i>
         </div>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
@@ -217,7 +221,39 @@
   </div>
   </section>
 
+  <!--Formulario Contacto-->
+  <section class="container-fluid nt-4 pt-0 bg-green">
+   <div class="container py-4">
+ 
+    <!--Titulo Formulario-->
+    <h2 class="text-center p-4">CONTACTO</h2>
+    <hr class="d-none d-sm-block"/>
 
+ 
+    <!--Nombre y Correo Formulario-->
+    <form>
+      <div class="form-group mb-3">
+        <h6>Nombre</h6>
+        <input type="text" class="form-control" id="formGroupExample" placeholder="Nombre">
+      </div>
+
+      <div class="form-group mb-3">
+        <h6>Asunto</h6>
+        <input type="text" class="form-control" id="formExampleEmail" placeholder="Asunto">
+      </div>
+
+      <div class="form-group mb-3">
+        <h6>Mensaje</h6>
+        <input type="text" class="form-control" id="formExampleEmail" placeholder="Mensaje">
+      </div>
+    <!--Boton Enviar-->
+      <div>
+        <button type="submit"class="btn btn-lg px-3 fs-6 text-light bg-info">Enviar</button>
+      </div>
+    </form>
+   </div>
+  </section>
+  <!--Footer-->
 
 
   <!--Javascript-->
