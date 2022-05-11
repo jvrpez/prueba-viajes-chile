@@ -8,15 +8,25 @@ body{
 
 /*Navbar*/
 
-.navbar-dark .navbar-brand{
-    color: #fff;
-    font-weight: 400;
-} 
-
-.nav-item{
-    font-weight: 400;
-}
-
+.nav-black {
+    background-color: black;
+    color: white;
+  }
+  
+  
+  .dark-celu .container {
+    background-color: transparent;
+  }
+  
+  
+  @media only screen and (max-width: 991px) {
+    
+    .dark-celu {
+      background-color: black;
+    }
+  
+  }
+  
 
 .carousel-item{
 

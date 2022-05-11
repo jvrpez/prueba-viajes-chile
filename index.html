@@ -33,54 +33,52 @@
     
     <!--Titulo-->
     <title>Viajes Chile</title>
+
+    <!--JavaScript JQUERY-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" 
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+    crossorigin="anonymous"></script>
+    <!--JavaScript LLAMADO-->
+    <script src="assets/js/script.js"></script>
 </head>
 
-
 <body>
-
-   <!-- Navbar -->
- <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+<!-- Navbar -->
+  <nav class="navbar navbar-expand-lg px-2 fixed-top navbar-dark dark-celu">
     <div class="container">
-        <!--Logo-->
-      <img src="assets/img/viajes.svg" alt="logoviajes"/>
-
-        <!--Nombre Marca-->
-      <a class="navbar-brand p-0" href="#">Viajes Chile</a>
-      <button class="navbar-toggler" 
-      type="button" 
-      data-bs-toggle="collapse" 
-      data-bs-target="#navbarSupportedContent" 
-      aria-controls="navbarSupportedContent" 
-      aria-expanded="false" 
-      aria-label="Toggle navigation">
+      <a class="navbar-brand" href="#">
+ <!--Logo-->
+        <img src="assets/img/viajes.svg" width="30" height="30" class="d-inline-block align-top" alt="viajeschile"
+          loading="lazy" />
+ <!--Nombre Marca-->
+        Viajes Chile
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
-        <!-- Menu Navbar-->
-      <div 
-      class="collapse navbar-collapse" 
-      id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto">
-
-         <li class="nav-item"> 
-          <a class="nav-link" href="#">Inicio</a>
-         </li>
-
-         <li class="nav-item"> 
-          <a class="nav-link" href="#">Quienes Somos</a>
-         </li>
-
-         <li class="nav-item"> 
-          <a class="nav-link" href="#">Destacados</a>
-         </li>
-
-         <li class="nav-item"> 
-          <a class="nav-link" href="#">Contacto</a>
-         </li>
-        </ul>
+<!-- Menu Navbar-->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav ms-auto nav_menu_collapse">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#inicio">Inicio<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#quienes">Quienes Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#destacados">Destacados</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </nav>
+ 
 
    <!--Carousel-->
  <header>
@@ -119,9 +117,9 @@
       <!--Primera Columna-->
       <div class="col-md-4 m-0">
         <div class="text-center bg-info">
-        <i class="fas fa-plane fa-2x"></i>
-      </div>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+         <i class="fas fa-plane fa-2x"></i>
+        </div>
+         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
           when an unknown printer took a galley of type and scrambled it to make a type specimen book.
            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
@@ -144,7 +142,7 @@
       <!--Tercera Columna-->
       <div class="col-md-4 m-0">
         <div class="text-center bg-info">
-        <i class="fas fa-route fa-2x"></i>
+         <i class="fas fa-route fa-2x"></i>
         </div>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
@@ -168,10 +166,10 @@
     <div class="card">
       <img src="assets/img/card1.jpg" class="card-img-top" alt="card 1"/>
       <div class="card-body bg-info text-light">
-        <h5 class="card-title " onclick="MyToggleFuction ()">Panqueques con manjar y crema</h5>
+        <h5 class="card-title " onclick="MyToggleFuction ()">Lorem Ipsum is simply dummy text of the printing ...</h5>
         <p class="card-text">
-          Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra,
-          blandit erat luctus faucibus orci.
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+          standard ...
         </p>
       </div>
     </div>
@@ -182,10 +180,10 @@
     <div class="card">
       <img src="assets/img/card2.jpg" class="card-img-top" alt="card 2"/>
       <div class="card-body bg-info text-light">
-        <h5 class="card-title" onclick="MyToggleFuction ()">Tiramisu</h5>
+        <h5 class="card-title" onclick="MyToggleFuction ()">Lorem Ipsum is simply dummy text of the printing ...</h5>
         <p class="card-text">
-          Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed faucibus mauris, 
-          taciti scelerisque nulla ornare consequat.
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+          standard ...
         </p>
       </div>
     </div>
@@ -196,10 +194,10 @@
     <div class="card">
       <img src="assets/img/card3.jpg" class="card-img-top" alt="card 3"/>
        <div class="card-body bg-info text-light">
-          <h5 class="card-title" onclick="MyToggleFuction ()">Tiramisu</h5>
+          <h5 class="card-title" onclick="MyToggleFuction ()">Lorem Ipsum is simply dummy text of the printing...</h5>
           <p class="card-text">
-              Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed faucibus mauris, 
-              taciti scelerisque nulla ornare consequat.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+            standard ...
           </p>
         </div>
       </div>
@@ -210,10 +208,10 @@
       <div class="card">
           <img src="assets/img/card4.jpg" class="card-img-top" alt="card 4"/>
           <div class="card-body bg-info text-light">
-            <h5 class="card-title" onclick="MyToggleFuction ()">Tiramisu</h5>
+            <h5 class="card-title" onclick="MyToggleFuction ()">Lorem Ipsum is simply dummy text of the printing ...</h5>
             <p class="card-text">
-              Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed faucibus mauris, 
-              taciti scelerisque nulla ornare consequat.
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+              standard ...
             </p>
           </div>
         </div>
@@ -257,27 +255,27 @@
   </section>
 
   <!--Footer-->
-  <footer class="container-fluid d-none d-sm-none d-md-block py-3 bg-info" id= "footer-viajeschile">
+  <footer class="container-fluid py-3 bg-info" id= "footer-viajeschile">
     <div class= "container" > 
       <div class="row"> 
-        <div class="col-6"> 
+        <div class="col-9"> 
           <h3 class="text-light p-4" > VIAJES CHILE</h3>
         </div>
-        <div class="col-7" >
+        <div class="col-2 p-4" >
           <div class="row text-light">
-            <div class="col-2 p-4">
+            <div class="col-md-3">
               <i class="fab fa-github-square fa-2x"></i>
     
             </div>
-            <div class="col-2 p-4">
+            <div class="col-md-3">
               <i class="fab fa-linkedin fa-2x"></i>
     
             </div>
-            <div class="col-2 p-4">
+            <div class="col-md-3">
               <i class="fab fa-twitter-square fa-2x"></i>
     
             </div>
-            <div class="col-2 p-4">
+            <div class="col-md-3">
               <i class="fab fa-facebook-square fa-2x"></i>
     
             </div>
@@ -287,12 +285,11 @@
     </div>
   </footer>
 
-
-  <!--Javascript-->
+  <!--Javascript BODY-->
  <script 
  src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
  crossorigin="anonymous"></script>
-
+ 
 </body>
 </html>
