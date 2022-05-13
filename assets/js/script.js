@@ -18,3 +18,6 @@ $(document).ready(function(){
     });
 });
 
+//boton
+var myModal = new bootstrap.Modal(document.getElementById('myModal'), options)
+
