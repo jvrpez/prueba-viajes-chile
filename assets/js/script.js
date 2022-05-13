@@ -11,3 +11,10 @@ $(document).scroll( function(e){
 var myCarousel = document.querySelector('#myCarousel')
 var carousel = new bootstrap.Carousel(myCarousel)
 
+//Tooltip redes sociales
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip({
+        placement : 'right'
+    });
+});
+

@@ -8,6 +8,9 @@
     <meta name="autor" content="Javiera Lopez"/>
     <meta name="description" content="Viajes Chile"/>
 
+    <!--Favicon-->
+    <link rel="shortcut icon" href="assets/img/viajes.svg" type="image/.svg">
+    
     <!--CSS Archivo-->
     <link rel="stylesheet" href="assets/css/style.css"/>
 
@@ -34,12 +37,12 @@
     <!--Titulo-->
     <title>Viajes Chile</title>
 
-    <!--JavaScript JQUERY-->
+<!-- POR SI NO FUNCIONA ABAJO JS
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" 
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
     crossorigin="anonymous"></script>
-    <!--JavaScript LLAMADO-->
-    <script src="assets/js/script.js"></script>
+
+    <script src="assets/js/script.js"></script>-->
 </head>
 
 <body>
@@ -47,10 +50,10 @@
   <nav class="navbar navbar-expand-lg px-2 fixed-top navbar-dark dark-celu">
     <div class="container">
       <a class="navbar-brand" href="#">
- <!--Logo-->
+        <!--Logo-->
         <img src="assets/img/viajes.svg" width="30" height="30" class="d-inline-block align-top" alt="viajeschile"
           loading="lazy" />
- <!--Nombre Marca-->
+        <!--Nombre Marca-->
         Viajes Chile
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -80,7 +83,7 @@
   </nav>
  
 
-   <!--Carousel-->
+<!--Carousel-->
  <header>
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -108,7 +111,7 @@
       </div>
  </header>
 
-  <!--Quienes Somos-->
+<!--Quienes Somos-->
  <section id="related" class="related container text-center my-4 d-none d-md-block">
     <h2 class="text-center p-4">¿QUIÉNES SOMOS?</h2>
     <hr class="d-none d-sm-block"/>
@@ -154,15 +157,14 @@
     </div>
  </section>
 
-
-   <!-- Cards -->
+<!-- Cards -->
    <section id="related" class="related container mb-5">
     <h2 class="text-center p-4">DESTACADOS</h2>
     <hr class="d-none d-sm-block"/>
-    <div class="row">
+   <div class="row">
   
     <!--1ra Card-->
-  <div class="col-12 col-md-3 py-2 px-2">
+   <div class="col-12 col-md-3 py-2 px-2">
     <div class="card">
       <img src="assets/img/card1.jpg" class="card-img-top" alt="card 1"/>
       <div class="card-body bg-info text-light">
@@ -173,10 +175,10 @@
         </p>
       </div>
     </div>
-  </div>
+   </div>
   
     <!--2da Card-->
-  <div class="col-12 col-md-3 py-2 px-2">
+   <div class="col-12 col-md-3 py-2 px-2">
     <div class="card">
       <img src="assets/img/card2.jpg" class="card-img-top" alt="card 2"/>
       <div class="card-body bg-info text-light">
@@ -187,10 +189,10 @@
         </p>
       </div>
     </div>
-  </div>
+   </div>
 
     <!--3da Card-->
-  <div class="col-12 col-md-3 py-2 px-2">
+   <div class="col-12 col-md-3 py-2 px-2">
     <div class="card">
       <img src="assets/img/card3.jpg" class="card-img-top" alt="card 3"/>
        <div class="card-body bg-info text-light">
@@ -204,7 +206,7 @@
    </div>
 
     <!--4da Card-->
-  <div class="col-12 col-md-3 py-2 px-2">
+   <div class="col-12 col-md-3 py-2 px-2">
       <div class="card">
           <img src="assets/img/card4.jpg" class="card-img-top" alt="card 4"/>
           <div class="card-body bg-info text-light">
@@ -216,10 +218,10 @@
           </div>
         </div>
       </div>
-  </div>
+   </div>
   </section>
 
-  <!--Formulario Contacto-->
+<!--Formulario Contacto-->
   <section class="container-fluid nt-4 pt-0 bg-green">
    <div class="container py-4">
  
@@ -254,30 +256,29 @@
    </div>
   </section>
 
-  <!--Footer-->
+<!--Footer-->
   <footer class="container-fluid py-3 bg-info" id= "footer-viajeschile">
-    <div class= "container" > 
+    <div class= "container"> 
       <div class="row"> 
         <div class="col-9"> 
-          <h3 class="text-light p-4" > VIAJES CHILE</h3>
+          <h3 class="text-light p-4"> VIAJES CHILE</h3>
         </div>
-        <div class="col-2 p-4" >
+        <div class="col-2 p-4">
           <div class="row text-light">
             <div class="col-md-3">
-              <i class="fab fa-github-square fa-2x"></i>
-    
+              <i class="fab fa-github-square fa-2x" data-toggle="tooltip"data-bs-placement="right" title="GITHUB"></i>
+            </div>
+
+            <div class="col-md-3">
+              <i class="fab fa-linkedin fa-2x"data-toggle="tooltip"data-bs-placement="right" title="LINKEDIN"></i>
+            </div>
+
+            <div class="col-md-3">
+              <i class="fab fa-twitter-square fa-2x"data-toggle="tooltip"data-bs-placement="right" title="TWITTER"></i>
+
             </div>
             <div class="col-md-3">
-              <i class="fab fa-linkedin fa-2x"></i>
-    
-            </div>
-            <div class="col-md-3">
-              <i class="fab fa-twitter-square fa-2x"></i>
-    
-            </div>
-            <div class="col-md-3">
-              <i class="fab fa-facebook-square fa-2x"></i>
-    
+              <i class="fab fa-facebook-square fa-2x"data-toggle="tooltip"data-bs-placement="right" title="FACEBOOK"></i>
             </div>
           </div>
         </div>
@@ -285,11 +286,18 @@
     </div>
   </footer>
 
-  <!--Javascript BODY-->
- <script 
- src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
- integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
- crossorigin="anonymous"></script>
+    <!--Javascript BODY-->
+  <script 
+   src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+   integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+   crossorigin="anonymous"></script>
+
+  <!--JavaScript JQUERY-->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" 
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+    crossorigin="anonymous"></script>
+  <!--JavaScript LLAMADO-->
+    <script src="assets/js/script.js"></script>
  
 </body>
 </html>
